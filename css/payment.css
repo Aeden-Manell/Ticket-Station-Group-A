@@ -4,6 +4,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 0.8rem;
+  background-image: url("../images/nainoa-shizuru-unsplash-blur.jpg");
 }
 .card {
   max-width: 1000px;
@@ -44,19 +45,6 @@ body {
 .upper {
   padding: 1rem 0;
   justify-content: space-evenly;
-}
-#three {
-  border-radius: 1rem;
-  width: 22px;
-  height: 22px;
-  margin-right: 3px;
-  border: 1px solid blue;
-  text-align: center;
-  display: inline-block;
-}
-#payment {
-  margin: 0;
-  color: blue;
 }
 .icons {
   margin-left: auto;
@@ -105,9 +93,8 @@ input:focus::-webkit-input-placeholder {
   line-height: 2;
 }
 .btn {
-  background-color: var(#32cd32);
-  border-color: rgb(23, 4, 189);
-  color: #32cd32;
+  background-color: black;
+  color: black;
   width: 100%;
   font-size: 0.7rem;
   margin: 4vh 0 1.5vh 0;
@@ -128,13 +115,22 @@ input:focus::-webkit-input-placeholder {
 .btn-pay {
   background: var(#32cd32);
   font-family: inherit;
-  padding: 0.6em 2em;
+  padding: 0.1em 1em;
   font-weight: bolder;
   font-size: 20px;
   border: 4px solid rgb(255, 255, 255);
   border-radius: 0.9em;
   box-shadow: 0.2em 0.3em;
   cursor: pointer;
+}
+.btn-pay:hover {
+  color: var(--secondary-color);
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+  background: black;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0.9em;
+  box-shadow: 0.15em 0.25em;
 }
 a {
   color: black;
