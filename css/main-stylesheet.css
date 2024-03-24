@@ -588,6 +588,7 @@ nav{
   HERO        
 -----------------------------------------*/
 .hero-section {
+  background-image: url("images/p1.webp");
   position: relative;
   padding-top: 100px;
   height: calc(100vh - 51px);
@@ -630,7 +631,7 @@ nav{
   background-size: cover;
   position: relative;
   animation: animateBg 7s linear infinite;
-  background-image: linear-gradient(100deg,#000000,#00450c,#000000,#000000,#000000,#000000,#009419);
+  background-image: linear-gradient(100deg,#000000,#00450c,#000000,rgb(0, 0, 0),#000000,#000000,#00b91f);
   background-size: 600% 100%;
 }
 @keyframes animateBg {
@@ -1346,7 +1347,7 @@ margin-bottom: -2px;
   background-size: cover;
   position: relative;
   animation: animateBg 7s linear infinite;
-  background-image: linear-gradient(100deg,#000000,#00450c,#000000,#000000,#000000,#000000,#009419);
+  background-image: linear-gradient(100deg,#000000,#005a0d,#000000,#000000,#000000,#00450c,#000000);
   background-size: 600% 100%;
 }
 @keyframes animateBg {
