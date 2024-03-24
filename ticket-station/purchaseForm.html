@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Purchase Form</title>
+
+    <!-- FontAwesome Link -->
+    <script src="https://kit.fontawesome.com/b77aa468a7.js" crossorigin="anonymous"></script>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Ticket Purchase Form</h2>
+        <form id="ticketForm" onsubmit="return validateForm()">
+            <label for="eventName">Select Event:</label>
+            <select id="eventName" required>
+                <option value="">Please Select Event:</option>
+                <option value="event1">Cotton Fest</option>
+                <option value="event2">Event 2</option>
+                <option value="event3">Event 3</option>
+            </select>
+            <div id="eventNameError" class="error"></div>
+
+            <label for="ticketType">Ticket Type:</label>
+            <input type="text" id="ticketType" placeholder="E.g. VIP, General Admission" required>
+            <div id="ticketTypeError" class="error"></div>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="1" required>
+            <div id="quantityError" class="error"></div>
+
+            <label for="customerName">Your Name:</label>
+            <input type="text" id="customerName" placeholder="Enter Your Name Here" required>
+            <div id="customerNameError" class="error"></div>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="Enter Your Email Address Here" required>
+            <div id="emailError" class="error"></div>
+
+            <input type="submit" value="Purchase Tickets">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
