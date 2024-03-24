@@ -1,0 +1,350 @@
+/*h2 {
+    margin: 2%;
+    text-align: center;
+}
+
+
+.dropdown-table {
+    margin-bottom: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.form-control {
+    width: 250px;
+}
+
+.event-table {
+    border-bottom: solid 1px #ccc;
+}
+
+.event-table td {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.host {
+    font-size: 1em;
+    font-weight: normal;
+    color: #888;
+}
+
+.jp,
+.ko,
+.ok {
+    font-weight: normal;
+}
+
+.jp {
+    color: steelblue;
+}
+
+.ko {
+    color: lightseagreen;
+}
+
+.ok {
+    color: chocolate;
+}
+
+
+.filterable {
+    margin-top: 15px;
+}
+
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+
+*/
+div.tickets-container {
+    max-width: 1350px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+#upcoming {
+    font-family: "Anta", sans-serif;
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 12px;
+    color: #fff;
+    margin: 18px 8px;
+    margin-bottom: 100px;
+    padding-bottom: 70px;
+
+}
+
+.tickets-container .item {
+    border-radius: 40px;
+    width: 48%;
+    float: left;
+    padding: 0 20px;
+    background: #fff;
+    overflow: hidden;
+    margin: 10px
+}
+
+.tickets-container .item-right,
+.tickets-container .item-left {
+    float: left;
+    padding: 20px
+}
+
+.tickets-container .item-right {
+    padding: 79px 50px;
+    margin-right: 20px;
+    width: 25%;
+    position: relative;
+    height: 286px
+}
+
+
+
+.tickets-container .item-right .up-border {
+    top: -8px;
+    right: -35px;
+}
+
+.tickets-container .item-right .down-border {
+    bottom: -13px;
+    right: -35px;
+}
+
+.tickets-container .item-right .num {
+    font-size: 60px;
+    text-align: center;
+    color: #111
+}
+
+.tickets-container .item-right .day,
+.tickets-container .item-left .event {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+
+.tickets-container .item-right .day {
+    text-align: center;
+    font-size: 25px;
+}
+
+.tickets-container .item-left {
+    width: 71%;
+    padding: 34px 0px 19px 46px;
+    border-left: 5px dotted #000000;
+}
+
+.tickets-container .item-left .title {
+    color: #111;
+    font-size: 34px;
+    margin-bottom: 12px
+}
+
+.tickets-container .item-left .sce {
+    margin-top: 5px;
+    display: block
+}
+
+.tickets-container .item-left .sce .icon,
+.tickets-container .item-left .sce p,
+.tickets-container .item-left .loc .icon,
+.tickets-container .item-left .loc p {
+    float: left;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.tickets-container .item-left .sce .icon,
+.tickets-container .item-left .loc .icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #32CD32
+}
+
+.tickets-container .item-left .loc {
+    display: block
+}
+
+.fix {
+    clear: both;
+    margin-top: 50px;
+}
+
+.tickets-container .item .tickets,
+.booked,
+.cancel {
+    color: #fff;
+    padding: 6px 14px;
+    float: right;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer
+}
+
+.tickets-container .item .tickets {
+    background: #ffffff
+}
+
+.tickets-container .item .booked {
+    background: #3D71E9
+}
+
+.tickets-container .item .cancel {
+    background: #DF5454
+}
+
+.linethrough {
+    text-decoration: line-through
+}
+
+@media only screen and (max-width: 1150px) {
+    .tickets-container .item {
+        width: 100%;
+        margin-right: 20px
+    }
+
+    div.tickets-container {
+        margin: 0 20px auto
+    }
+}
+
+
+.upcoming-section {
+    border-top: 1px solid white;
+    padding-top: 60px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    padding: 90px;
+}
+
+.ticketDiv{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: #000000 2px solid;
+}
+
+
+.button-buy-now {
+    padding: 0.55em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: transparent;
+    border: 3.6px solid #32CD32;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 800;
+    position: relative;
+    font-family: "Anta", sans-serif;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .button-buy-now::before {
+    border-radius: 40px;
+    content: "Buy Ticket";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #32CD32;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+  }
+  
+  .button-buy-now:hover::before {
+    background-color: #32CD32;
+    background-color: #000000;
+    border-radius: 40px;
+    left: 100%;
+    transform: scale(0) rotateY(360deg);
+    opacity: 0;
+  }
+  
+  .button-buy-now::after {
+    border-radius: 40px;
+    content: "R9000";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #32CD32;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    transform: scale(0) rotateY(0deg);
+    opacity: 0;
+  }
+  
+  .button-buy-now:hover::after {
+    background-color: #32CD32;
+    left: 0;
+    transform: scale(1) rotateY(360deg);
+    opacity: 1;
+  }
+
+  #cancel-btn{
+    border: 3.6px solid #e00b0b;
+    color: #fff;
+    background-color: #e00b0b;
+  }
+
+  #cancel-btn::before{
+    content: "Canceled";
+    color: #fff;
+    background-color: #e00b0b;;
+  }
+
+  #cancel-btn:hover::before{
+    color: #fff;
+    background-color: #e00b0b;
+  }
+
+  #cancel-btn::after {
+    content: "Canceled";
+    color: #fff;
+    background-color: #e00b0b;
+  }
+
+  #cancel-btn:hover::after {
+    color: #fff;
+    background-color: #e00b0b;
+  }
+  
