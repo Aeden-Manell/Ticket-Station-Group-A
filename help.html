@@ -8,11 +8,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>TICKET STATION - About Us</title>
+    <title>TICKET STATION - Help</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css"
+        integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
 
     <!-- CSS FILES -->
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  />
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,9 +28,12 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="css/ticket-section-style.css" rel="stylesheet">    
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
     <link href="css/main-stylesheet.css" rel="stylesheet">
+
+    <link href="css/about.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,35 +45,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
 
-    <!--
 
-TemplateMo 583 Festava Live
-
-https://templatemo.com/tm-583-festava-live
-
--->
 </head>
 
 <body>
 
     <main>
-
         <header class="site-header">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-12 col-12 d-flex flex-wrap">
-                        <p class="d-flex me-4 mb-0">
-                            <strong id="banner-text">Planning your next event? Click here to list your event
-                                now!</strong>
+            <div  id="column-container">
+                    <div class="column-1">
+                        <p class="me-4 mb-0">
+                            <strong id="banner-text"></strong>
                         </p>
                     </div>
-
-                </div>
+                    <div class="column-2">
+                        <p class="me-4 mb-0">
+                            <strong id="banner-text"><a href="signup.html" id="headerText">Login</a> | <a href="signup.html" id="headerText"> Register</a></strong>
+                        </p>
+                    </div>
             </div>
-        </header>
-
-
+        </header>  
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html" id="logo">
@@ -84,7 +85,7 @@ https://templatemo.com/tm-583-festava-live
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="aboutus.html">About</a>
+                            <a class="nav-link" href="aboutus.html">About</a>
                         </li>
 
                         <li class="nav-item">
@@ -92,7 +93,7 @@ https://templatemo.com/tm-583-festava-live
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="ceate-events.html">Create Event</a>
+                            <a class="nav-link click-scroll" href="create-events.html">Create Event</a>
                         </li>
 
                         <li class="nav-item">
@@ -117,13 +118,113 @@ https://templatemo.com/tm-583-festava-live
         </nav>
 
 
+
+        <section id="home-about" class="section-showcase">
+            <div class="container-about">
+              <div>
+                <h1>Help</h1>
+                <p>
+                    We're here to assist you with any questions or issues you may have regarding our products and services. Our knowledgeable support team is ready to help you get the most out of our offerings.
+                </p>
+              </div>
+              <img src="http://127.0.0.1:5500/images/img3.svg" alt="" />
+            </div>
+          </section>
+
+
+        <section class="Faq-section">
+            <div class="about-title text-center mb-5">
+                <h3 class="Faq-heading">Frequently <span></span> Asked Questions</h3>
+                <div class="title-border"></div>
+            </div>
+            <div class="faq-container">
+                <div class="faq-group">
+                    <div class="faq-left">
+                        <h3 id="faq-h3">Need Help?</h3>
+                        <p class="faqText">If you have an issue or question that requires immediate assistance, you can click the button below to chat live with a Customer Service representative.</p>
+                        <p class="faqText">Please allow 06 - 12 business days from the time your package arrives back to us for a refund to be issued.</p>
+                        <div class="faq-btns">
+                            <a href="contactus.html" class="faq-btn">Message Us</a>
+                            <a href="contactus.html" class="faq-btn">Contact Us</a>
+                        </div>
+                        
+                    </div>
+                    <div class="faq-right">
+                        <h3 class="faq-right-h3">Frequently Asked Questions</h3>
+                        <div class="faq-main">
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">How can I change or cancel my order on Ticket Station?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">As an online ticketing platform, Ticket Station likely has a process in place for customers to modify or cancel their orders. Typically, you can log into your account on their website, navigate to your order history, and look for options to change or cancel your order.  </p>
+                                    <p class="faq-paragraph">However, the specific process and any associated fees or conditions may vary based on Ticket Station's policies and the event organizer's rules. It's recommended to check their website or contact their customer support for detailed instructions on order changes or cancellations.  </p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">What is Ticket Station's return policy for event tickets?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">Ticket Station's return policy for event tickets is not explicitly stated in the provided information. However, most ticketing platforms have specific policies in place regarding returns and refunds. These policies often depend on factors such as the reason for the return, the timing of the request (e.g., before or after the event), and the event organizer's rules.   </p>
+                                    <p class="faq-paragraph">It's advisable to review Ticket Station's website or reach out to their customer support team to understand their specific return policy, eligibility criteria, and any applicable fees or restrictions.  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Payment Information</h3>
+                        <div class="faq-main">
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">What payment methods do you accept?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">At Ticket Station, we strive to provide a seamless and convenient payment experience for our customers. We accept major credit and debit cards, including Visa, Mastercard, and American Express.   </p>
+                                    <p class="faq-paragraph">Additionally, we offer secure online payment options through trusted payment gateways like PayPal and Ozow.  </p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">Are there any additional fees for ticket purchases?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">To ensure transparency, we clearly display all applicable fees during the checkout process. Ticket Station charges a nominal service fee to cover the costs associated with maintaining our secure ticketing platform and providing exceptional customer service.  </p>
+                                    <p class="faq-paragraph">Please note that event organizers may also include additional fees, such as venue fees or taxes, which will be clearly communicated during your purchase.  </p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">How can I ensure the security of my payment information?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">At Ticket Station, we prioritize the safety and security of your personal and payment information. Our platform employs industry-standard encryption protocols and follows strict data protection policies to safeguard your sensitive data.   </p>
+                                    <p class="faq-paragraph"> We also work with reputable payment processors to ensure that all transactions are handled securely and in compliance with relevant regulations.
+                                    </p>
+                                </div>
+                            </div>                
+                        </div>
+                        <h3 class="faq-right-h3">Refunds and Reschedules</h3>
+                        <div class="faq-main">
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">In the event of a cancelled show, how will I receive my refunded?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">If you paid via Credit Card, your funds will automatically be returned to the card that you purchased with.
+                                        If you paid via EFT or Ozow, you will be prompted to enter your banking details.</p>
+                                    <p class="faq-paragraph">If you paid via Pick n Pay, you will receive a new reference number to take instore to receive your cash refund at any Pick n Pay store nationwide.
+                                        • No races will be refunded.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">How long does it take to receive a refund?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">Once you have processed your refund using the self-refund option for a cancelled or rescheduled event or race, your refund will usually take 7-10 working days to reflect.</p>
+                                    <p class="faq-paragraph">Please check the purchase date on your statement to see if the refunded funds reflect on that date.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+    </main>
+
     <footer class="site-footer">
         <div class="site-footer-top">
             <div class="container">
                 <div class="row">
 
                     <div class="col-lg-6 col-12">
-                        <h2 class="text-white mb-lg-0">Festava Live</h2>
+                        <h2 id="footer-logo">TICKET STATION</h2>
                     </div>
 
                     <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
@@ -171,27 +272,27 @@ https://templatemo.com/tm-583-festava-live
 
                     <ul class="site-footer-links">
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Home</a>
+                            <a href="index.html" class="site-footer-link">Home</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">About</a>
+                            <a href="aboutus.html" class="site-footer-link">About</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Artists</a>
+                            <a href="events.html" class="site-footer-link">Events</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Schedule</a>
+                            <a href="create-events.html" class="site-footer-link">Create Event</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Pricing</a>
+                            <a href="help.html" class="site-footer-link">Help</a>
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="#" class="site-footer-link">Contact</a>
+                            <a href="contactus.html" class="site-footer-link">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -201,13 +302,13 @@ https://templatemo.com/tm-583-festava-live
 
                     <p class="text-white d-flex mb-1">
                         <a href="tel: 090-080-0760" class="site-footer-link">
-                            090-080-0760
+                            0861 999 710
                         </a>
                     </p>
 
                     <p class="text-white d-flex">
                         <a href="mailto:hello@company.com" class="site-footer-link">
-                            hello@company.com
+                            ticketstation@gmail.com
                         </a>
                     </p>
                 </div>
@@ -215,19 +316,8 @@ https://templatemo.com/tm-583-festava-live
                 <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
                     <h5 class="site-footer-title mb-3">Location</h5>
 
-                    <p class="text-white d-flex mt-3 mb-2">
-                        Silang Junction South, Tagaytay, Cavite, Philippines</p>
+                    <p class="text-white d-flex mt-3 mb-2">21 Pepper Street, <br> Cape Town, Western Cape</p>
 
-                    <a class="link-fx-1 color-contrast-higher mt-3" href="#">
-                        <span>Our Maps</span>
-                        <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
-                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="16" cy="16" r="15.5"></circle>
-                                <line x1="10" y1="18" x2="16" y2="12"></line>
-                                <line x1="16" y1="12" x2="22" y2="18"></line>
-                            </g>
-                        </svg>
-                    </a>
                 </div>
             </div>
         </div>
@@ -236,24 +326,8 @@ https://templatemo.com/tm-583-festava-live
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-3 col-12 mt-5">
-                        <p class="copyright-text">Copyright © 2036 Festava Live Company</p>
-                    </div>
-
-                    <div class="col-lg-8 col-12 mt-lg-5">
-                        <ul class="site-footer-links">
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Terms &amp; Conditions</a>
-                            </li>
-
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Privacy Policy</a>
-                            </li>
-
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Your Feedback</a>
-                            </li>
-                        </ul>
+                    <div class="mt-5">
+                        <p class="copyright-text">© 2024 Ticket Station. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
@@ -265,8 +339,10 @@ https://templatemo.com/tm-583-festava-live
 
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/ticketsearch.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
+    <script src="js/faq-function.js"></script>
     <script src="js/click-scroll.js"></script>
     <script src="js/custom.js"></script>
 

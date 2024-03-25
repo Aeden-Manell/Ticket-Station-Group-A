@@ -45,29 +45,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
 
-
 </head>
-
 <body>
-
     <main>
-
         <header class="site-header">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-12 col-12 d-flex flex-wrap">
-                        <p class="d-flex me-4 mb-0">
-                            <strong id="banner-text">Planning your next event? Click here to list your event
-                                now!</strong>
+            <div  id="column-container">
+                    <div class="column-1">
+                        <p class="me-4 mb-0">
+                            <strong id="banner-text"></strong>
                         </p>
                     </div>
-
-                </div>
+                    <div class="column-2">
+                        <p class="me-4 mb-0">
+                            <strong id="banner-text"><a href="signup.html" id="headerText">Login</a> | <a href="signup.html" id="headerText"> Register</a></strong>
+                        </p>
+                    </div>
             </div>
-        </header>
-
-
+        </header>    
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html" id="logo">
@@ -577,6 +571,73 @@
             </div>
         </section> -->
 
+
+        <section class="Faq-section">
+            <div class="about-title text-center mb-5">
+                <h3 class="Faq-heading">Frequently <span></span> Asked Questions</h3>
+                <div class="title-border"></div>
+            </div>
+            <div class="faq-container">
+                <div class="faq-group">
+                    <div class="faq-left">
+                        <h3 id="faq-h3">Need Help?</h3>
+                        <p class="faqText">If you have an issue or question that requires immediate assistance, you can click the button below to chat live with a Customer Service representative.</p>
+                        <p class="faqText">Please allow 06 - 12 business days from the time your package arrives back to us for a refund to be issued.</p>
+                        <div class="faq-btns">
+                            <a href="contactus.html" class="faq-btn">Message Us</a>
+                            <a href="contactus.html" class="faq-btn">Contact Us</a>
+                        </div>
+                        
+                    </div>
+                    <div class="faq-right">
+                        <h3 class="faq-right-h3">Frequently Asked Questions</h3>
+                        <div class="faq-main">
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">How can I change or cancel my order on Ticket Station?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">As an online ticketing platform, Ticket Station likely has a process in place for customers to modify or cancel their orders. Typically, you can log into your account on their website, navigate to your order history, and look for options to change or cancel your order.  </p>
+                                    <p class="faq-paragraph">However, the specific process and any associated fees or conditions may vary based on Ticket Station's policies and the event organizer's rules. It's recommended to check their website or contact their customer support for detailed instructions on order changes or cancellations.  </p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">What is Ticket Station's return policy for event tickets?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">Ticket Station's return policy for event tickets is not explicitly stated in the provided information. However, most ticketing platforms have specific policies in place regarding returns and refunds. These policies often depend on factors such as the reason for the return, the timing of the request (e.g., before or after the event), and the event organizer's rules.   </p>
+                                    <p class="faq-paragraph">It's advisable to review Ticket Station's website or reach out to their customer support team to understand their specific return policy, eligibility criteria, and any applicable fees or restrictions.  </p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Payment Information</h3>
+                        <div class="faq-main">
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">What payment methods do you accept?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">At Ticket Station, we strive to provide a seamless and convenient payment experience for our customers. We accept major credit and debit cards, including Visa, Mastercard, and American Express.   </p>
+                                    <p class="faq-paragraph">Additionally, we offer secure online payment options through trusted payment gateways like PayPal and Ozow.  </p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">Are there any additional fees for ticket purchases?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">To ensure transparency, we clearly display all applicable fees during the checkout process. Ticket Station charges a nominal service fee to cover the costs associated with maintaining our secure ticketing platform and providing exceptional customer service.  </p>
+                                    <p class="faq-paragraph">Please note that event organizers may also include additional fees, such as venue fees or taxes, which will be clearly communicated during your purchase.  </p>
+                                </div>
+                            </div>
+                            <div class="faq-item">
+                                <div class="faq-label" id="faqlabel">How can I ensure the security of my payment information?<i></i></div>
+                                <div class="faq-cont">
+                                    <p class="faq-paragraph">At Ticket Station, we prioritize the safety and security of your personal and payment information. Our platform employs industry-standard encryption protocols and follows strict data protection policies to safeguard your sensitive data.   </p>
+                                    <p class="faq-paragraph"> We also work with reputable payment processors to ensure that all transactions are handled securely and in compliance with relevant regulations.
+                                    </p>
+                                </div>
+                            </div>                
+                        </div>
+        
+                    </div>
+                </div>
+                </div>
+        </section>
+
     </main>
 
     <footer class="site-footer">
@@ -700,6 +761,7 @@
 
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/faq-function.js"></script>
     <script src="js/ticketsearch.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>

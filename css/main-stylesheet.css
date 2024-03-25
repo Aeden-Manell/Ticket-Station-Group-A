@@ -400,7 +400,7 @@ height: 100%;
   background-color: #32CD32;
   padding-top: 12px;
   color: white;
-  padding-bottom: 12px;
+  padding-bottom: 18px;
 
 }
 
@@ -1702,4 +1702,32 @@ padding-left: 30px;
   color: #000000;
   font-weight: 500;
   font-size: 18px;
+}
+
+.column-1 {
+  margin-right: 20px;
+}
+
+.column-2 {
+  margin-left: 20px;
+}
+
+#column-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#headerText{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-family: "Anta", sans-ser
+}
+
+#headerText:hover{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  letter-spacing: 2px;
 }
