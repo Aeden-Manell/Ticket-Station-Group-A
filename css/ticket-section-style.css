@@ -78,6 +78,8 @@
 }
 
 */
+
+
 div.tickets-container {
     max-width: 1350px;
     margin: 0 auto;
@@ -136,19 +138,20 @@ div.tickets-container {
 .tickets-container .item-right .num {
     font-size: 60px;
     text-align: center;
-    color: #111
+    color: #111;
 }
 
 .tickets-container .item-right .day,
 .tickets-container .item-left .event {
     color: #000000;
-    font-size: 20px;
+    font-size: 26px;
+    font-weight: 900;
     margin-bottom: 9px;
 }
 
 .tickets-container .item-right .day {
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .tickets-container .item-left {
@@ -175,7 +178,7 @@ div.tickets-container {
     float: left;
     word-spacing: 5px;
     letter-spacing: 1px;
-    color: #888;
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -183,7 +186,7 @@ div.tickets-container {
 .tickets-container .item-left .loc .icon {
     margin-right: 10px;
     font-size: 20px;
-    color: #32CD32
+    color: #32CD32;
 }
 
 .tickets-container .item-left .loc {
@@ -220,7 +223,8 @@ div.tickets-container {
 }
 
 .linethrough {
-    text-decoration: line-through
+    text-decoration: line-through;
+    color: #e00b0b;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -297,7 +301,7 @@ div.tickets-container {
   
   .button-buy-now::after {
     border-radius: 40px;
-    content: "R9000";
+    content: "R600";
     position: absolute;
     top: 0;
     left: -100%;
@@ -348,3 +352,17 @@ div.tickets-container {
     background-color: #e00b0b;
   }
   
+
+.ticketText{
+    font-weight: 800;
+    color: #000000;
+    font-size: 19PX;
+}
+
+#footer-logo{
+    font-family: "Anta", sans-serif;
+    color: #ffffff;
+    margin-top: 10PX;
+    font-size: 40PX;
+    letter-spacing: 2PX;
+}
