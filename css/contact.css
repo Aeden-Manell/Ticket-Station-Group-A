@@ -53,7 +53,7 @@
 }
 
 .form-control{
-    background-color: #f1f1f1;
+    background-color: #f2f2f2;
     border: #c4c4c4;
 }
 
@@ -84,4 +84,8 @@
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em;
   }
+
+.form-control{
+    height: 50px;
+}
   

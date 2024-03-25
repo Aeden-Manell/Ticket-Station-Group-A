@@ -379,7 +379,7 @@ div.tickets-container {
 
 .button-buy-now::after {
     border-radius: 40px;
-    content: "R600";
+    content: "Buy Ticket";
     position: absolute;
     top: 0;
     left: -100%;
@@ -445,3 +445,38 @@ div.tickets-container {
     font-size: 40PX;
     letter-spacing: 2PX;
 }
+
+#viewmore-div {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  #viewmore-btn {
+    font-family: "Anta", sans-serif;
+    display: inline-block;
+    background-color: #32CD32;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 25px;
+    border-right: #fff 4px solid;
+    border-bottom: #fff 4px solid;
+    border-radius: 24px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #viewmore-btn:hover {
+    font-family: "Anta", sans-serif;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 25px;
+    border-right: #32CD32 4px solid;
+    border-bottom: #32CD32 4px solid;
+  }
