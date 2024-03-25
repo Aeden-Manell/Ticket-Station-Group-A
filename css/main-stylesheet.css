@@ -1576,7 +1576,7 @@ margin-bottom: -2px;
 .faq-item {
 	width: 100%;
 	margin: 7px 0px;
-	border-bottom: #ebebeb 1px solid;
+	border-bottom: #33df04 3px solid;
 }
 
 .faq-item .faq-label {
@@ -1677,7 +1677,7 @@ margin-bottom: -2px;
 #faq-h3{
   color: #000000;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 44px;
   margin-bottom: 30px;
 }
 
@@ -1693,7 +1693,13 @@ padding-left: 30px;
 }
 
 #faqlabel{
-  font-size: 21px;
+  font-size: 22px;
   padding-bottom: 10px;
   font-weight: 500;
+}
+
+.faq-paragraph{
+  color: #000000;
+  font-weight: 500;
+  font-size: 18px;
 }
