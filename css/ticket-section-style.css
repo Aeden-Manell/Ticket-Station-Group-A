@@ -1,13 +1,43 @@
 
-h2 {
+/* 
+	font-family: "Bai Jamjuree", sans-serif;
+  	font-family: "Anta", sans-serif;
+*/
+
+#ondisplay {
+    font-family: "Anta", sans-serif;
+    font-size: 55px;
     text-align: center;
-    
+    padding-left: 12px;
+    color: #fff;
+    margin: 18px 8px;
+    padding-bottom: 20px;
+}
+
+th{
+    background-color: #32CD32;
+    padding: 7px;
+    border-radius: 27px;
+}
+
+
+#h2-tickets {
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    color: #ffffff;
+    font-size: 60px;
 }
 
 .dropdown-table {
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
     display: grid;
     place-items: center;
+
+}
+
+option{
+      font-size: 23px;  
 }
 
 .form-control {
@@ -15,7 +45,7 @@ h2 {
 }
 
 .event-table {
-    border-bottom: solid 1px #ccc;
+    border-bottom: solid 1px #32CD32;
 }
 
 .event-table td {
@@ -67,8 +97,24 @@ h2 {
 .ticket-section{
     padding-top: -130px;
     border-top: #000000 solid 3px;
+    padding-bottom: 90px;
+    border-bottom: 2px #32CD32 solid;
 }
 
+#assigned-region-filter{
+    background-color: #000000;
+    color: #ffffff;
+    border: #000000 solid 3px;
+    border-radius: 18px;
+    width: 400px;
+    height: 50px;
+}
+
+#contact-h4{
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 35px;
+}
 
 /* ticket section 2 */
 
@@ -83,7 +129,6 @@ div.tickets-container {
     font-family: "Anta", sans-serif;
     font-size: 55px;
     text-align: center;
-    text-transform: uppercase;
     padding-left: 12px;
     color: #fff;
     margin: 18px 8px;
