@@ -400,7 +400,7 @@ height: 100%;
   background-color: #32CD32;
   padding-top: 12px;
   color: white;
-  padding-bottom: 12px;
+  padding-bottom: 18px;
 
 }
 
@@ -556,6 +556,7 @@ nav{
 
 
 .button-buynow {
+  color: #000000;
   background: var(--secondary-color);
   font-family: inherit;
   padding: 0.6em 2em;
@@ -588,6 +589,7 @@ nav{
   HERO        
 -----------------------------------------*/
 .hero-section {
+  background-image: url("images/p1.webp");
   position: relative;
   padding-top: 100px;
   height: calc(100vh - 51px);
@@ -630,7 +632,7 @@ nav{
   background-size: cover;
   position: relative;
   animation: animateBg 7s linear infinite;
-  background-image: linear-gradient(100deg,#000000,#00450c,#000000,#000000,#000000,#000000,#009419);
+  background-image: linear-gradient(100deg,#000000,#00450c,#000000,rgb(0, 0, 0),#000000,#000000,#00b91f);
   background-size: 600% 100%;
 }
 @keyframes animateBg {
@@ -971,8 +973,14 @@ nav{
 
 .site-footer-link,
 .copyright-text {
+  font-weight: 400;
   color: var(--white-color);
 }
+
+.site-footer-link:hover {
+  color: var(--primary-color);
+}
+
 
 .site-footer-links {
   padding-left: 0;
@@ -1346,7 +1354,7 @@ margin-bottom: -2px;
   background-size: cover;
   position: relative;
   animation: animateBg 7s linear infinite;
-  background-image: linear-gradient(100deg,#000000,#00450c,#000000,#000000,#000000,#000000,#009419);
+  background-image: linear-gradient(100deg,#000000,#005a0d,#000000,#000000,#000000,#00450c,#000000);
   background-size: 600% 100%;
 }
 @keyframes animateBg {
@@ -1476,8 +1484,251 @@ margin-bottom: -2px;
 }
 
 .img-about{
-
   height: 380px; 
   width: 100%; 
   position: relative;
+}
+
+.Faq-heading{
+  color: rgb(0, 0, 0);
+  font-size: 54px;
+  margin-bottom: 100px;
+}
+
+.Faq-section{
+  font-family: "Bai Jamjuree", sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 70px;
+	box-sizing: border-box;
+  border-bottom: 3px rgb(255, 255, 255) solid;
+  padding-bottom: 140px;
+  padding-top: 100px;
+}
+
+.faq-container {
+  font-family: "Bai Jamjuree", sans-serif;
+	max-width: 1200px;
+	width: 100%;
+	padding: 0px 15px;
+	margin: auto;
+}
+
+
+.faq-title {
+	text-align: center;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+.faq-group {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.faq-group .faq-left {
+	width: 38%;
+}
+
+.faq-group .faq-right {
+	width: 58%;
+	border-left: #ccc 1px solid;
+	padding-left: 30px;
+	margin-left: 4%;
+}
+
+.faq-group h3 {
+  font-family: "Bai Jamjuree", sans-serif;
+	font-size: 32px;
+	font-weight: 800;
+	margin: 35px 0 15px 0;
+}
+
+.faq-group h3:first-child {
+  font-family: "Bai Jamjuree", sans-serif;
+	margin-top: 0px;
+}
+.faq-btns {
+  font-family: "Anta", sans-serif;
+  margin-top: 40px;
+ margin-bottom: 40px;
+}
+.faq-btn {
+	width: 100%;
+	display: inline-block;
+	border-radius: 9px;
+	text-align: center;
+	margin: 10px 0;
+	background-color: #fff;
+	padding: 14px;
+	text-decoration: none;
+	color: #ffffff;
+	transition: 0.5s all;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: #32CD32;
+}
+
+.faq-btn:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.faq-item {
+	width: 100%;
+	margin: 7px 0px;
+	border-bottom: #33df04 3px solid;
+}
+
+.faq-item .faq-label {
+	position: relative;
+	width: 100%;
+	padding: 12px 26px 12px 0px;
+	cursor: pointer;
+	font-size: 18px;
+	color: #000;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+.faq-item .faq-label i {
+	width: 18px;
+	height: 100%;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.faq-item .faq-label i:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 18px;
+	height: 2px;
+	background-color: #000;
+}
+
+.faq-item .faq-label i:after {
+	content: '';
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	width: 2px;
+	height: 18px;
+	background-color: #000;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+}
+
+.faq-item.faq-item-show .faq-label i:after {
+	opacity: 0;
+}
+
+.faq-cont {
+	transition: 0.3s all;
+	overflow: hidden;
+	height: 0px;
+}
+
+.faq-item.faq-item-show  .faq-cont {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: auto;
+	height: auto;
+}
+
+.faq-cont p {
+  font-family: "Bai Jamjuree", sans-serif;
+	margin: 0px 0 20px 0;
+}
+
+.faq-cont p:last-child {
+  font-family: "Bai Jamjuree", sans-serif;
+	margin-bottom: 0px;
+}
+
+@media(max-width:992px) {
+	.faq-group .faq-left{
+  width: 100%;
+ }
+.faq-group .faq-right {
+ width: 100%;
+ border-left: none;
+ padding-left: 0;
+ margin-left: 0;
+}
+}	
+
+.faqText{
+  line-height: 28px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+#faq-h3{
+  color: #000000;
+  font-weight: 500;
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+
+.faq-title {
+font-size: 70px;
+padding-bottom: 30px;
+text-align: center;
+padding-left: 30px;
+}
+
+.faq-right-h3{
+  font-weight: 900;
+}
+
+#faqlabel{
+  font-size: 22px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.faq-paragraph{
+  color: #000000;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.column-1 {
+  margin-right: 20px;
+}
+
+.column-2 {
+  margin-left: 20px;
+}
+
+#column-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#headerText{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-family: "Anta", sans-ser
+}
+
+#headerText:hover{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  letter-spacing: 2px;
 }
