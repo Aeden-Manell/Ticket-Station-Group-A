@@ -5,13 +5,14 @@
 */
 
 #ondisplay {
+    padding-top: 30px;
     font-family: "Anta", sans-serif;
     font-size: 55px;
     text-align: center;
     padding-left: 12px;
-    color: #fff;
-    margin: 18px 8px;
+    color: #32CD32;
     padding-bottom: 20px;
+
 }
 
 th{
@@ -24,8 +25,8 @@ th{
 #h2-tickets {
     text-align: center;
     font-family: "Anta", sans-serif;
-    color: #ffffff;
-    font-size: 60px;
+    color: #000000;
+    font-size: 50px;
 }
 
 .dropdown-table {
@@ -88,6 +89,13 @@ option{
     color: #333;
 }
 
+.container-tickets{
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #fffffffd;
+    padding-bottom: 100px;
+}
+
 
 .event-list-row{
     background-color: #ffffff4f;
@@ -95,9 +103,8 @@ option{
 }
 
 .ticket-section{
-    padding-top: -130px;
+
     border-top: #000000 solid 3px;
-    padding-bottom: 90px;
     border-bottom: 2px #32CD32 solid;
 }
 
