@@ -5,7 +5,7 @@
 */
 
 #ondisplay {
-    padding-top: 30px;
+    padding-top: 90px;
     font-family: "Anta", sans-serif;
     font-size: 55px;
     text-align: center;
@@ -15,10 +15,30 @@
 
 }
 
-th{
+
+.buynow{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: "Bai Jamjuree", sans-serif;
+    border-radius: 15px;
+    padding: 7px 12px;
+    border: #32CD32;
+    border-right: 3px black solid;
+    border-bottom: 4px black solid;
     background-color: #32CD32;
-    padding: 7px;
-    border-radius: 27px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.buynow:hover{
+    
+    border: #32CD32;
+    border-right: 3px #32CD32 solid;
+    border-bottom: 4px #32CD32 solid;
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 
@@ -45,19 +65,26 @@ option{
     width: 250px;
 }
 
-.event-table {
-    border-bottom: solid 1px #32CD32;
+tr {
+    border-bottom: solid 3px #32CD32;
+
 }
 
+#header-events{
+    border-bottom: solid 3px #7b7b7b;
+}
+
+
 .event-table td {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
 .host {
     font-size: 1em;
-    font-weight: normal;
-    color: #888;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 1px;
 }
 
 .filterable {
@@ -109,12 +136,15 @@ option{
 }
 
 #assigned-region-filter{
-    background-color: #000000;
-    color: #ffffff;
-    border: #000000 solid 3px;
-    border-radius: 18px;
+    background-color: #32CD32;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    border: #ffffff solid 3px;
+    border-radius: 16px;
     width: 400px;
-    height: 50px;
+    height: 70px;
+    text-align: center;
 }
 
 #contact-h4{
