@@ -22,7 +22,7 @@ const eventPrices = {
     const totalPrice = tickets * eventPrices[eventSelected];
   
     // Redirect to payment gateway
-    const paymentGatewayUrl = 'https://yourpaymentgateway.com';
+    const paymentGatewayUrl = 'payment.html';
     const redirectUrl = `${paymentGatewayUrl}?event=${encodeURIComponent(eventSelected)}&tickets=${tickets}&total=${totalPrice}`;
     window.location.href = redirectUrl;
   
