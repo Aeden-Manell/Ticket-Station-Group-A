@@ -17,6 +17,7 @@
 
 
 .buynow{
+    color: #000000;
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -28,11 +29,11 @@
     border-bottom: 4px black solid;
     background-color: #32CD32;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .buynow:hover{
-    
+    color: #000000;
     border: #32CD32;
     border-right: 3px #32CD32 solid;
     border-bottom: 4px #32CD32 solid;
@@ -117,16 +118,16 @@ tr {
 }
 
 .container-tickets{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: #fffffffd;
     padding-bottom: 100px;
 }
 
 
 .event-list-row{
-    background-color: #ffffff4f;
-    padding: 50px;
+    background-color: #ffffff;
+    height: 112px;
 }
 
 .ticket-section{
@@ -152,6 +153,8 @@ tr {
     font-weight: 800;
     font-size: 35px;
 }
+
+
 
 /* ticket section 2 */
 
