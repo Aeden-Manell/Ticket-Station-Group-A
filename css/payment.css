@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   min-height: 100vh;
   display: flex;
@@ -23,9 +29,9 @@ body {
   font-size: 1.6rem;
 }
 .card-body {
-  padding: 0 5rem 5rem 5rem;
+  /* padding: 0 5rem 5rem 5rem;
   background-image: url("https://i.imgur.com/4bg1e6u.jpg");
-  background-size: cover;
+  background-size: cover;*/
   background-repeat: no-repeat;
 }
 @media (max-width: 768px) {
@@ -40,11 +46,15 @@ body {
   }
 }
 .row {
-  margin: 0;
+  max-width: 100%;
+  margin: 2vh;
 }
 .upper {
   padding: 1rem 0;
   justify-content: space-evenly;
+}
+.col-md-7 {
+  margin: auto;
 }
 .icons {
   margin-left: auto;
@@ -77,7 +87,7 @@ input:focus::-webkit-input-placeholder {
   width: 2rem;
 }
 .left .col-4 {
-  padding-left: 0;
+  padding-left: 1;
 }
 .right .item {
   padding: 0.3rem 0;
@@ -92,15 +102,14 @@ input:focus::-webkit-input-placeholder {
 .lower {
   line-height: 2;
 }
-.btn {
+/* .btn {
   background-color: black;
-  color: black;
-  width: 100%;
+  color: black !important;
   font-size: 0.7rem;
   margin: 4vh 0 1.5vh 0;
   padding: 1.5vh;
   border: 2px solid #32cd32;
-}
+} */
 .btn:focus {
   box-shadow: none;
   outline: none;
@@ -122,12 +131,14 @@ input:focus::-webkit-input-placeholder {
   border-radius: 0.9em;
   box-shadow: 0.2em 0.3em;
   cursor: pointer;
+  width: 70%;
+  margin-top: 20px;
 }
 .btn-pay:hover {
   color: var(--secondary-color);
   transform: translate(-0.05em, -0.05em);
   box-shadow: 0.15em 0.15em;
-  background: black;
+  background: #32cd32;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 0.9em;
   box-shadow: 0.15em 0.25em;
