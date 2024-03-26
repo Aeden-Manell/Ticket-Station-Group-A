@@ -1,5 +1,7 @@
 /* Reset CSS */
+
 #form-login {
+    font-family: "Bai Jamjuree", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,11 +30,14 @@
   }
   
   .login-form h1 {
+    font-family: "Anta", sans-serif;
     margin-bottom: 10px;
     color: #333;
   }
   
   .login-form p {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
     margin-bottom: 20px;
     color: #777;
   }
@@ -51,23 +56,27 @@
   }
   
   .input-group input:focus {
-    border-color: #007bff;
+    border-color: #32CD32;
     outline: none;
   }
   
   button {
-    padding: 15px;
+    font-family: "Anta", sans-serif;
+    padding: 10px;
     border: none;
-    border-radius: 8px;
-    background-color: #007bff;
-    color: #fff;
+    border-radius: 19px;
+    background-color: #32CD32;
+    margin: 20px 70px;
+
+    color: #000000;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 26px;
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #32CD32;
   }
   
   .bottom-text {
@@ -83,13 +92,13 @@
   }
   
   .bottom-text a {
-    color: #007bff;
+    color: #32CD32;
     text-decoration: none;
     transition: color 0.3s ease;
   }
   
   .bottom-text a:hover {
-    color: #0056b3;
+    color: #32CD32;
   }
   
   /* Responsive */
@@ -100,3 +109,20 @@
     }
   }
   
+
+#form-login{
+    background-color: #000000;
+}
+
+#username{
+    background-color: #e8e8e8a4;
+    font-size: 20px;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+#password{
+    background-color: #e8e8e8a4;
+    font-size: 20px;
+    font-family: "Bai Jamjuree", sans-serif;
+
+}
