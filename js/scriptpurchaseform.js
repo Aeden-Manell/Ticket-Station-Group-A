@@ -8,8 +8,6 @@ const nameInput = document.querySelector('#ticket-form-name');
 const emailInput = document.querySelector('#ticket-form-email'); 
 // Get the input element with the ID 'ticket-form-email'
 
-const phoneInput = document.querySelector('input[name="ticket-form-phone"]'); 
-// Get the input element with the name 'ticket-form-phone'
 
 const ticketTypeRadios = document.querySelectorAll('input[name="TicketForm"]'); 
 // Get all radio input elements with the name 'TicketForm'
@@ -52,18 +50,7 @@ const validateForm = () => {
     setSuccess(emailInput); // Otherwise, set the email input as valid
   }
 
-  // Phone validation
-  const phoneValue = phoneInput.value.trim(); // Get the trimmed value of the phone input
-  const phoneRegex = /^\+\d{2}\s\d{3}\s\d{3}\s\d{3}$/; // Regular expression for phone number validation
-  if (phoneValue === '') { // If the phone value is empty
-    setError(phoneInput, 'Phone number is required'); // Set an error message for the phone input
-    isValid = false; // Set the isValid flag to false
-  } else if (!phoneRegex.test(phoneValue)) { // If the phone value doesn't match the regex
-    setError(phoneInput, 'Invalid phone number format'); // Set an error message for the phone input
-    isValid = false; // Set the isValid flag to false
-  } else {
-    setSuccess(phoneInput); // Otherwise, set the phone input as valid
-  }
+ 
 
   // Ticket type validation
   let ticketTypeSelected = false; // Initialize a flag to check if a ticket type is selected
@@ -94,20 +81,7 @@ const validateForm = () => {
   }
 };
 
-// Helper functions
-const setError = (input, message) => {
-  const formControl = input.parentElement; // Get the parent element of the input (form control)
-  const errorMessage = formControl.querySelector('.error-message'); // Get the existing error message element, if any
-  if (errorMessage) { // If an error message element exists
-    errorMessage.innerText = message; // Update the error message text
-  } else { // If no error message element exists
-    const errorDiv = document.createElement('div'); // Create a new div element
-    errorDiv.classList.add('error-message'); // Add the 'error-message' class to the div
-    errorDiv.innerText = message; // Set the error message text
-    formControl.appendChild(errorDiv); // Append the div to the form control
-  }
-  formControl.classList.add('error'); // Add the 'error' class to the form control
-};
+
 
 const setSuccess = (input) => {
   const formControl = input.parentElement; // Get the parent element of the input (form control)
