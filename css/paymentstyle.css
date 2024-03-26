@@ -5,9 +5,13 @@
     min-height: 100vh;
     vertical-align: middle;
     display: flex;
-    
+   	font-family: "Bai Jamjuree", sans-serif; 
 }
 
+/* 
+
+  	font-family: "Anta", sans-serif;
+*/
 
 .card{
     margin: auto;
@@ -63,13 +67,14 @@
 }
 
 input{
+    font-family: "Anta", sans-serif;
     border: none;
     outline: none;
     font-size: 1rem;
     font-weight: 600;
     color: #000;
     width: 100%;
-    height: 40px;
+    height: 25px;
     min-width: unset;
     background-color: transparent;
     border-color: transparent;
@@ -77,6 +82,7 @@ input{
 }
 
 form a{
+    font-family: "Anta", sans-serif;
     color:grey;
     text-decoration: none;
     font-size: 0.87rem;
@@ -131,7 +137,8 @@ form .row .col-2{
     font-size: 0.9rem;
 }
 #card-inner{
-    font-size: 0.7rem;
+    float: left;
+    font-size: 1rem;
     color: gray;
 }
 .three .col-7{
@@ -196,3 +203,17 @@ input:focus:-ms-input-placeholder {
 .payment-inputs{
     height: 55px;
 }
+
+#card-header{
+    font-family: "Anta", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 23px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.text{
+    font-size: 370px;
+}
+
