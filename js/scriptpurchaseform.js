@@ -81,7 +81,20 @@ const validateForm = () => {
   }
 };
 
-
+// Helper functions
+const setError = (input, message) => {
+  const formControl = input.parentElement; // Get the parent element of the input (form control)
+  const errorMessage = formControl.querySelector('.error-message'); // Get the existing error message element, if any
+  if (errorMessage) { // If an error message element exists
+    errorMessage.innerText = message; // Update the error message text
+  } else { // If no error message element exists
+    const errorDiv = document.createElement('div'); // Create a new div element
+    errorDiv.classList.add('error-message'); // Add the 'error-message' class to the div
+    errorDiv.innerText = message; // Set the error message text
+    formControl.appendChild(errorDiv); // Append the div to the form control
+  }
+  formControl.classList.add('error'); // Add the 'error' class to the form control
+};
 
 const setSuccess = (input) => {
   const formControl = input.parentElement; // Get the parent element of the input (form control)
