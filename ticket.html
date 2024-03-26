@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>TICKET STATION - Contact</title>
+    <title>TICKET STATION</title>
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css"
@@ -16,8 +16,8 @@
 
     <!-- CSS FILES -->
 
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  />
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,13 +28,12 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
+   
     <link href="css/bootstrap-icons.css" rel="stylesheet">
 
     <link href="css/main-stylesheet.css" rel="stylesheet">
 
-    <link href="css/about.css" rel="stylesheet">
-    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/stylepurchaseform.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,11 +45,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
 
-
 </head>
 
     <body>
-        <main>
+        <main id="main-body">
             <header class="site-header">
                 <div id="column-container">
                     <div class="column-1">
@@ -119,15 +117,15 @@
             </nav>
 
 
-            <section class="ticket-section section-padding" id="purchase-form">
-                <div class="section-overlay"></div>
+            <section class="section-padding" id="Purchase-Form">
+                <div class=""></div>
 
                 <div class="container">
                     <div class="row">
 
                         <div class="col-lg-6 col-10 mx-auto">
                             <form class="custom-form ticket-form mb-5 mb-lg-0" action="#" method="post" role="form">
-                                <h2 class="text-center mb-4">Ticket Purchase Form</h2>
+                                <h2 class="text-center mb-4" id="ticket-h2">Ticket Purchase Form</h2>
 
                                 <div class="ticket-form-body">
                                     <div class="row">
@@ -140,7 +138,7 @@
                                         </div>
                                     </div>
 
-                                    <input type="tel" class="form-control" name="ticket-form-phone" placeholder="Ph 085-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
+                                    <input type="tel" class="form-control" name="ticket-form-phone" placeholder="+27 ++ +++ ++++" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
 
                                     <h6>Choose Ticket Type</h6>
 
@@ -149,7 +147,7 @@
                                             <div class="form-check form-control">
                                                 <input class="form-check-input" type="radio" name="TicketForm" id="flexRadioDefault1">
                                                 <label class="form-check-label" for="flexRadioDefault1">
-                                                    Eary bird $120
+                                                        Standard
                                                 </label>
                                             </div>
                                         </div>
@@ -158,7 +156,7 @@
                                             <div class="form-check form-check-radio form-control">
                                                 <input class="form-check-input" type="radio" name="TicketForm" id="flexRadioDefault2">
                                                 <label class="form-check-label" for="flexRadioDefault2">
-                                                    Standard $240
+                                                    VIP
                                                 </label>
                                             </div>
                                         </div>
@@ -169,16 +167,15 @@
                                     <textarea name="ticket-form-message" rows="3" class="form-control" id="ticket-form-message" placeholder="Additional Request"></textarea>
 
                                     <div class="col-12">
-                                        <button class="button-submit" type="submit">Submit</button>
+                                        <button href="events.html" id="viewmore-btn">Buy Tickets</button>
                                       </div>
                                 </div>
                             </form>
                     </div>
                 </div>
             </section>
+        
         </main>
-
-
         <footer class="site-footer">
             <div class="site-footer-top">
                 <div class="container">
@@ -295,11 +292,13 @@
             </div>
         </footer>
 
-        <!-- JAVASCRIPT FILES -->
+        <!-- JAVASCRIPT FILES -->        
+        <Script src="js/scriptpurchaseform.js"></Script>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
         <script src="js/custom.js"></script>
+
 
     </body>
 </html>
