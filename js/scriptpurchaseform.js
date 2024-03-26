@@ -105,3 +105,18 @@ const setSuccess = (input) => {
   }
 };
   
+
+function validateForm(event) {
+  event.preventDefault(); // Prevent the default form submission
+
+  // Your form validation logic goes here
+  // For example, you can check if required fields are filled
+  let isFormValid = true; // Assume the form is valid initially
+
+  // If any validation fails, set isFormValid to false
+
+  if (isFormValid) {
+    // If the form is valid, redirect to payment.html
+    window.location.href = "payment.html";
+  }
+}

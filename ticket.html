@@ -124,7 +124,7 @@
                     <div class="row">
 
                         <div class="col-lg-6 col-10 mx-auto">
-                            <form class="custom-form ticket-form mb-5 mb-lg-0" action="#" method="post" role="form">
+                            <form class="custom-form ticket-form mb-5 mb-lg-0" onsubmit="validateForm(event)">
                                 <h2 class="text-center mb-4" id="ticket-h2">Ticket Purchase Form</h2>
 
                                 <div class="ticket-form-body">
@@ -167,7 +167,7 @@
                                     <textarea name="ticket-form-message" rows="3" class="form-control" id="ticket-form-message" placeholder="Additional Request"></textarea>
 
                                     <div class="col-12">
-                                        <button href="payment.html" id="viewmore-btn">Buy Tickets</button>
+                                        <a type="submit" href="payment.html" id="viewmore-btn">Buy Tickets</a>
                                       </div>
                                 </div>
                             </form>
