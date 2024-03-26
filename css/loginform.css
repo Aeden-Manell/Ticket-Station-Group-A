@@ -60,7 +60,7 @@
     outline: none;
   }
   
-  button {
+  #btn-submit {
     font-family: "Anta", sans-serif;
     padding: 10px;
     border: none;
@@ -75,7 +75,7 @@
     font-size: 26px;
   }
   
-  button:hover {
+  #btn-submit:hover {
     background-color: #32CD32;
   }
   
