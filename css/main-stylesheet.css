@@ -41,6 +41,7 @@
 body {
   background-color: var(--white-color);
   font-family: var(--body-font-family); 
+  background-color: #32CD32;
 }
 
 #logo{

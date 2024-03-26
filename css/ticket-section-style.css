@@ -480,3 +480,82 @@ div.tickets-container {
     border-right: #32CD32 4px solid;
     border-bottom: #32CD32 4px solid;
   }
+
+#gallery-section{
+    font-family: 'Muli', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    padding-top: 90px;
+    padding-right: 70px;
+    padding-bottom: 150px;
+}
+  
+  .container-g {
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+  }
+  
+  .slide {
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    position: relative;
+    transition: all 500ms ease-in-out;
+  }
+  
+  .slide h3 {
+    font-family: "Anta", sans-serif;
+    position: absolute;
+    font-size: 24px;
+    color: #ffffff;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+  }
+  
+  .slide.active {
+    border: #fff 3px solid;
+    flex: 10;
+  }
+  
+  .slide.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out 0.4s;
+  }
+
+  #gallery-h2 {
+    font-family: "Anta", sans-serif;
+    font-weight: 800;
+    background: transparent;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-size: 66px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+body{
+    background-image: url('');
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation: animateBg 7s linear infinite;
+    background-image: linear-gradient(100deg,#000000,#00450c,#000000,rgb(0, 0, 0),#000000,#000000,#00b91f);
+    background-size: 600% 100%;
+  }
