@@ -1,3 +1,5 @@
+
+
 // Get form elements
 const form = document.querySelector('.ticket-form'); 
 // Get the form element with the class 'ticket-form'
@@ -105,6 +107,7 @@ const setSuccess = (input) => {
   }
 };
   
+
 
 function validateForm(event) {
   event.preventDefault(); // Prevent the default form submission
